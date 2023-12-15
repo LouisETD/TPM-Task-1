@@ -18,8 +18,8 @@ use App\Http\Controllers\registration;
 Route::get('/', [HomeController::class, 'home']);
 
 // Page Registration
-Route::get('/registration', [RegistrationController::class,'redirectToregister']);
+Route::get('/registration', [Registration::class,'redirectToregister']);
 
 // Page Database
-Route::post('/post-registration', [RegistrationController::class, 'Registration']);
+Route::post('/post-registration', [Registration::class, 'Registration']);
 

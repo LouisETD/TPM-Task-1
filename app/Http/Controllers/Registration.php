@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Tenant;
 
-class registration extends Controller
+class Registration extends Controller
 {
     public function redirectToregister(){
         return view('registration');
