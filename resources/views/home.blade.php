@@ -34,6 +34,7 @@
         <td>{{ $tenant->tipe_makanan }}</td>
         <td>{{ $tenant->asal_makanan }}</td>
         </tr>
+        @endforeach
     </tbody>
     </table>
   </div>
